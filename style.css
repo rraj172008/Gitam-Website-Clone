@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{ 
+    display: flex;
+}
+
+.left-section{
+width: 1336px;
+height: 734px;
+background: #007367;
+justify-content: center;
+display: flex;
+align-items: center;
+gap: 50px;
+position: relative;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow: scroll;
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    height: 124px;
+    position: sticky;
+    box-sizing: border-box;
+    
+}
+.lines{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    position: sticky;
+    box-sizing: border-box;
+}
+.right-section{
+position: relative;
+height: 734px;
+width: 712px;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+overflow: scroll;
+
+}
+
+.student{
+    width: 350px;
+    height: 314px;
+    background-color: #f3e5cb;
+    border-radius: 20px;
+    position: sticky;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+}
+
+.staff{
+    width: 350px;
+    height: 314px;
+   
+    background-color: #f3e5cb;
+    border-radius: 20px;
+    
+    margin-left: 10px;
+    position: sticky;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.student img{
+width: 280px;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  position: sticky;
+  box-sizing: border-box;
+   
+}
+
+.staff img{
+    width: 280px;
+  height: 180px;
+  object-fit: contain; 
+  display: block;
+  position: sticky;
+  box-sizing: border-box;
+
+}
+
+.student span{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 564;
+  font-style: normal;
+  color: #007367;
+  margin-bottom: 15px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.staff span{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 564;
+  font-style: normal;
+  color: #007367;
+  margin-bottom: 15px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.login-box{
+    border: 1px solid #007367 ;
+    border-radius: 10px;
+    height: 542px;
+    width: 402px;
+    font-weight: bold;
+    position: relative;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+
+
+}
+
+.main-logo{
+
+    position: absolute;
+    left: 130px;
+    height: 142px;
+    width: 142px;
+    object-fit: contain;
+    display: block;
+    position: sticky;
+    box-sizing: border-box;
+}
+
+.username{
+    
+    width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+    position: sticky;
+    box-sizing: border-box;
+}
+
+.password{
+    position: sticky;
+    box-sizing: border-box;
+    width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn{
+    width: 100px;
+    color: white;
+    border: 1px solid #007367 ;
+    background-color: #007367;
+    padding: 10px;
+    border-radius: 5px;
+   position: sticky;
+   box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    position: absolute;
+    top: 192px;
+    left: 54px;
+    bottom: 224px;
+    box-sizing: border-box;
+}  
+
+.end1{
+    
+    color: #007367;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 464;
+  font-style: normal;
+  margin-bottom: 15px;
+  position: absolute;
+  box-sizing: border-box;
+    left: 54px;
+    bottom: 144px;
+   position: sticky;
+
+}
+
+.end2{
+    color: #007367;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 464;
+  font-style: normal;
+  margin-bottom: 15px;
+  position: absolute;
+  position: sticky;
+    right: 54px;
+    bottom: 144px;
+  box-sizing: border-box;
+}
