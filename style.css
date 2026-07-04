@@ -18,23 +18,20 @@ gap: 50px;
 position: relative;
 margin: 0;
 padding: 0;
-box-sizing: border-box;
-overflow: scroll;
+
 }
 .logo{
     position: absolute;
     top: 25px;
     height: 124px;
-    position: sticky;
-    box-sizing: border-box;
+   
     
 }
 .lines{
     position: absolute;
     bottom: 0;
     left: 0;
-    position: sticky;
-    box-sizing: border-box;
+   
 }
 .right-section{
 position: relative;
@@ -44,8 +41,7 @@ background: #FFF;
 display: flex;
 align-items: center;
 justify-content: center;
-box-sizing: border-box;
-overflow: scroll;
+
 
 }
 
@@ -54,14 +50,13 @@ overflow: scroll;
     height: 314px;
     background-color: #f3e5cb;
     border-radius: 20px;
-    position: sticky;
-    box-sizing: border-box;
+    
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-sizing: border-box;
+    
     
 }
 
@@ -73,14 +68,13 @@ overflow: scroll;
     border-radius: 20px;
     
     margin-left: 10px;
-    position: sticky;
-    box-sizing: border-box;
+    
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-sizing: border-box;
+
 }
 
 
@@ -89,8 +83,7 @@ width: 280px;
   height: 180px;
   object-fit: contain;
   display: block;
-  position: sticky;
-  box-sizing: border-box;
+ 
    
 }
 
@@ -99,8 +92,7 @@ width: 280px;
   height: 180px;
   object-fit: contain; 
   display: block;
-  position: sticky;
-  box-sizing: border-box;
+  
 
 }
 
@@ -112,7 +104,7 @@ width: 280px;
   color: #007367;
   margin-bottom: 15px;
   font-size: 18px;
-  box-sizing: border-box;
+  
 }
 
 .staff span{
@@ -123,7 +115,7 @@ width: 280px;
   color: #007367;
   margin-bottom: 15px;
   font-size: 18px;
-  box-sizing: border-box;
+  
 }
 
 .login-box{
@@ -135,7 +127,7 @@ width: 280px;
     position: relative;
 justify-content: center;
 align-items: center;
-box-sizing: border-box;
+
 
 
 }
@@ -148,8 +140,7 @@ box-sizing: border-box;
     width: 142px;
     object-fit: contain;
     display: block;
-    position: sticky;
-    box-sizing: border-box;
+   
 }
 
 .username{
@@ -160,13 +151,11 @@ box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 14px;
-    position: sticky;
-    box-sizing: border-box;
+
 }
 
 .password{
-    position: sticky;
-    box-sizing: border-box;
+   
     width: 250px;
   padding: 10px;
   margin-bottom: 10px;
@@ -182,8 +171,7 @@ box-sizing: border-box;
     background-color: #007367;
     padding: 10px;
     border-radius: 5px;
-   position: sticky;
-   box-sizing: border-box;
+  
 }
 
 .container{
@@ -196,7 +184,7 @@ box-sizing: border-box;
     top: 192px;
     left: 54px;
     bottom: 224px;
-    box-sizing: border-box;
+    
 }  
 
 .end1{
@@ -208,10 +196,10 @@ box-sizing: border-box;
   font-style: normal;
   margin-bottom: 15px;
   position: absolute;
-  box-sizing: border-box;
+  
     left: 54px;
     bottom: 144px;
-   position: sticky;
+   
 
 }
 
@@ -223,8 +211,8 @@ box-sizing: border-box;
   font-style: normal;
   margin-bottom: 15px;
   position: absolute;
-  position: sticky;
+  
     right: 54px;
     bottom: 144px;
-  box-sizing: border-box;
+  
 }
